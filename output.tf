@@ -3,7 +3,7 @@ output "azs" {
 }
 
 output "roboshop_vpc_id" {
-  value  = module.roboshop.vpc.id
+  value  = module.roboshop.vpc
 
 }
 
