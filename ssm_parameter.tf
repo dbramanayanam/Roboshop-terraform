@@ -5,7 +5,7 @@ resource "aws_ssm_parameter" "vpc" {
 }
 
 
-resource "aws_ssm_parameter" "public_subnet_ids" {
+resource "aws_ssm_parameter" "public_subnet_id" {
   name  = "/${var.project}/${var.environment}/public_subnet_ids"
   type  = "StringList"
   value = join(",", module.roboshop.public_subnet_ids.id)
