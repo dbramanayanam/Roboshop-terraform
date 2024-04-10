@@ -7,6 +7,6 @@ output "azs" {
 #   value = module.roboshop.vpc_id
 # }
 
-output "public_subnets" {
-  value       = module.roboshop.public_subnets
-}
+# output "public_subnets" {
+#   value       = module.roboshop.public_subnets
+# }
