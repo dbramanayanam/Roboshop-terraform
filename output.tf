@@ -12,6 +12,5 @@ output "azs" {
 #  }
 
 output "aws_route_table" {
-  value = module.roboshop.aws_route_table
-
+  value = aws_route_table.public_rt.id
 }
