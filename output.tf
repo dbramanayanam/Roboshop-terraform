@@ -11,7 +11,7 @@ output "vpc_id" {
 #   value = module.roboshop.public_subnet_ids.id
 # }
  output "internet_gw" {
-   value       =  module.roboshop.internet_gw
+   value =  module.roboshop.internet_gw.id
   
  }
  
