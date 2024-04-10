@@ -1,6 +1,6 @@
-# output "azs" {
-#   value = module.roboshop.azs
-# }
+output "azs" {
+  value = module.roboshop.azs
+}
 
 
 # output "vpc_id" {
