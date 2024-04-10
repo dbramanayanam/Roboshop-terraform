@@ -12,6 +12,6 @@ output "azs" {
 #  }
 
 output "aws_route_table" {
-  value       = module.roboshop.aws_route_table
+  value = module.roboshop.aws_route_table
 
 }
