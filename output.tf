@@ -11,7 +11,7 @@ output "azs" {
 #     value       = module.roboshop.database_subnets
 #  }
 
-output "aws_route_table"{
+output "aws_route_table" {
   value       = module.roboshop.aws_route_table
 
 }
